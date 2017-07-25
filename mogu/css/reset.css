@@ -1,0 +1,28 @@
+@charset "utf-8";
+html,body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea,html{font:16px "微软雅黑",'Helvetica,Arial',"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+address,cite,dfn,em,var{font-style:normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+small{font-size:12px;}
+ul,ol{list-style:none;}
+i{font-style: normal;}
+a{text-decoration:none;color: #000;}
+a:hover{text-decoration:none;}
+sup{vertical-align:text-top;}
+sub{vertical-align:text-bottom;}
+legend{color:#000;}
+fieldset,img{border:0;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix:after {
+	content:"\200B"; 
+	display:block; 
+	height:0; 
+	clear:both; 
+	}
+.clearfix:after{
+	*zoom: 1;
+}
+html .hide{display:none;}
+/*重置样式 CSS Reset*/
